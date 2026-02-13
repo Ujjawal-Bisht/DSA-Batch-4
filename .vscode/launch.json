@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "hashmap",
+      "request": "launch",
+      "mainClass": "hashmap",
+      "projectName": "DSA-Batch-4_b59f5e8f"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

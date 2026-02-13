@@ -4,7 +4,24 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int removeDuplicate(vector<int>nums);
+int removeDuplicate(vector<int>&nums){
+    // nums = [0,0,1,1,1,2,2,3,3,4]
+    int n = nums.size();
+    int i=0; int j=i+1 ;
+    int count = 1 ;
+    while(i<j && j<n){
+        if(nums[i] == nums[j]) j++ ;
+        else{
+            // swap(nums[j], nums[i+1]) 
+            int temp = nums[j];
+            nums[j] = nums[i+1];
+            nums[i+1] = temp ;
+
+            i++ ; j++ ; count++ ;
+        }
+    }
+    return count ;
+}
 
 int main(){
     vector<int> nums;
@@ -20,8 +37,9 @@ int main(){
 
     vector<int> expectedNums = {1,2} ;
 
-    int k = removeDuplicate(nums);
-    
+    int k = removeDuplicate(nums);  //nums = [1,1,2] 
+    // k should be 2.
+
     assert(k == expectedNums.size());
     for (int i = 0; i < k; i++) {
         assert(nums[i] == expectedNums[i]);
