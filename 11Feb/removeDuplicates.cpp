@@ -4,23 +4,35 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int removeDuplicate(vector<int>&nums){
-    // nums = [0,0,1,1,1,2,2,3,3,4]
-    int n = nums.size();
-    int i=0; int j=i+1 ;
-    int count = 1 ;
-    while(i<j && j<n){
+// int removeDuplicate(vector<int>&nums){
+//     // nums = [0,0,1,1,1,2,2,3,3,4]
+//     int n = nums.size();
+//     int i=0; int j=i+1 ;
+//     int count = 1 ;
+//     while(i<j && j<n){
+//         if(nums[i] == nums[j]) j++ ;
+//         else{
+//             // swap(nums[j], nums[i+1]) 
+//             int temp = nums[j];
+//             nums[j] = nums[i+1];
+//             nums[i+1] = temp ;
+
+//             i++ ; j++ ; count++ ;
+//         }
+//     }
+//     return count ;
+// }
+
+int removeDuplicates(vector<int>& nums) {
+    int i=0, j=i+1;
+    while(j<nums.size()){
         if(nums[i] == nums[j]) j++ ;
         else{
-            // swap(nums[j], nums[i+1]) 
-            int temp = nums[j];
-            nums[j] = nums[i+1];
-            nums[i+1] = temp ;
-
-            i++ ; j++ ; count++ ;
+            nums[i+1] = nums[j];
+            i++ ; j++;
         }
     }
-    return count ;
+    return i+1 ;
 }
 
 int main(){
@@ -37,7 +49,7 @@ int main(){
 
     vector<int> expectedNums = {1,2} ;
 
-    int k = removeDuplicate(nums);  //nums = [1,1,2] 
+    int k = removeDuplicates(nums);  //nums = [1,1,2] 
     // k should be 2.
 
     assert(k == expectedNums.size());

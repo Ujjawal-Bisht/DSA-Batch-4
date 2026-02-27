@@ -42,8 +42,8 @@ Feb 18 2026 ✅<br>
 LeetCode 162 - Find Peak Element <br>
 LeetCode 278 - First Bad Version <br>
 Homework Questions<br>
-LeetCode 33 - Search in Rotated Sorted Array
-LeetCode 35 - Search Insert Position
+LeetCode 033 - Search in Rotated Sorted Array
+LeetCode 035 - Search Insert Position
 
 Feb 19 2026❓<br>
 LeetCode 034 - Find First and Last Position of Element in Sorted Array
@@ -63,14 +63,14 @@ Feb 21 2026<br>
 <b>Time and Space Complexity</b>
 
 Feb 23 2026<br>
-<b>Test<b>
+<b>Test</b>
 HomeWork Questions<br>
 LeetCode 033 - Search in Rotated Sorted Array
 LeetCode 034 - Find First and Last Position of Element in Sorted Array
 LeetCode 162 - Find Peak Element
 
 Feb 24 2026<br>
-<b>Sliding Window<b>
+<b>Sliding Window</b>
 HomeWork Questions<br>
 Leetcode 0003 - Longest Substring Without Repeating Characters
 Leetcode 1004 - Max Consecutive Ones III
@@ -85,6 +85,14 @@ HomeWork - Same as previous
 
 Feb 26 2026<br>
 LeetCode 1004 - Max Consecutive Ones III
+HomeWork Questions <br>
 LeetCode 0076 - Minimum Window Substring
 LeetCode 1356 - Sort Integers by The Number of 1 Bits
 LeetCode 1423 - Maximum Points You Can Obtain from Cards
+
+Feb 27 2026<br>
+<b>Map or Ordered map</b> <br>
+LeetCode 0239 - Sliding Window Maximum
+HomeWork Questions <br>
+LeetCode 1358 - Number of Substrings Containing All Three Characters
+LeetCode 0424 - Longest Repeating Character Replacement
