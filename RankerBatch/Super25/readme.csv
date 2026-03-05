@@ -1,0 +1,26 @@
+Serial No.,Problem No.,Problem Statement,LeetCode Link,Notes,Status
+1,258,Add Digits,https://leetcode.com/problems/add-digits/,Digital root formula,done
+2,387,First Unique Character in a String,https://leetcode.com/problems/first-unique-character-in-a-string/,Freq + first index,not visited
+3,2974,Minimum Number Game,https://leetcode.com/problems/minimum-number-game/,Sort + swap pairs,not visited
+4,1832,Check if the Sentence Is Pangram,https://leetcode.com/problems/check-if-the-sentence-is-pangram/,Set size 26,not visited
+5,2114,Maximum Number of Words Found in Sentences,https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/,Count spaces,not visited
+6,2520,Count the Digits That Divide a Number,https://leetcode.com/problems/count-the-digits-that-divide-a-number/,Mod check,not visited
+7,2108,Find First Palindromic String in the Array,https://leetcode.com/problems/find-the-first-palindromic-string-in-the-array/,Two-pointer check,not visited
+8,2798,Number of Employees Who Met the Target,https://leetcode.com/problems/number-of-employees-who-met-the-target/,Simple count,not visited
+9,2535,Difference Between Element Sum and Digit Sum of an Array,https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/,Split digits,not visited
+10,2652,Sum Multiples,https://leetcode.com/problems/sum-multiples/,Divisible by 3 5 7,not visited
+11,1486,XOR Operation in an Array,https://leetcode.com/problems/xor-operation-in-an-array/,Pattern/XOR loop,not visited
+12,2894,Divisible and Non-divisible Sums Difference,https://leetcode.com/problems/sum-of-distributed-differences/,Math formula,not visited
+13,709,To Lower Case,https://leetcode.com/problems/to-lower-case/,ASCII shift,not visited
+14,3019,Number of Changing Keys,https://leetcode.com/problems/number-of-changing-keys/,Case-insensitive compare,not visited
+15,3024,Type of Triangle,https://leetcode.com/problems/type-of-triangle/,Sort + classify,not visited
+16,2942,Find Words Containing Character,https://leetcode.com/problems/find-words-containing-character/,String find,not visited
+17,977,Squares of a Sorted Array,https://leetcode.com/problems/squares-of-a-sorted-array/,Two pointers,not visited
+18,2769,Find the Maximum Achievable Number,https://leetcode.com/problems/find-the-maximum-achievable-number/,n + 2t,not visited
+19,1281,Subtract the Product and Sum of Digits of an Integer,https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/,Digit loop,not visited
+20,1672,Richest Customer Wealth,https://leetcode.com/problems/richest-customer-wealth/,Row sum,not visited
+21,1550,Three Consecutive Odds,https://leetcode.com/problems/three-consecutive-odds/,Streak count,not visited
+22,1822,Sign of the Product of an Array,https://leetcode.com/problems/sign-of-the-product-of-an-array/,Count negatives,not visited
+23,682,Baseball Game,https://leetcode.com/problems/baseball-game/,Stack simulation,not visited
+24,657,Robot Return to Origin,https://leetcode.com/problems/robot-return-to-origin/,Net displacement,not visited
+25,3232,Find if Digit Game Can Be Won,https://leetcode.com/problems/find-if-digit-game-can-be-won/,Even/odd sum logic,not visited

@@ -96,3 +96,16 @@ LeetCode 0239 - Sliding Window Maximum
 HomeWork Questions <br>
 LeetCode 1358 - Number of Substrings Containing All Three Characters
 LeetCode 0424 - Longest Repeating Character Replacement
+
+Feb 28 2026<br>
+LeetCode 1358 - Number of Substrings Containing All Three Characters
+LeetCode 1423 - Maximum Points You Can Obtain from Cards
+
+March 1 2026<br>
+HomeWork Questions<br>
+LeetCode 15 - 3Sum
+LeetCode 54 - Spiral Matrix
+LeetCode 73	- Set Matrix Zeroes
+
+March 2 2026<br>
+<b>Super 25 Questions</b>
