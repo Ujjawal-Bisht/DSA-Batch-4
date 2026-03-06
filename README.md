@@ -109,3 +109,11 @@ LeetCode 73	- Set Matrix Zeroes
 
 March 2 2026<br>
 <b>Super 25 Questions</b>
+
+March 5 2026<br>
+LeetCode 73 - Set Matrix Zeroes
+LeetCode 15 - 3Sum
+LeetCode 54 - Spiral Matrix
+HomeWork Questions
+LeetCode 18 - 4Sum
+
